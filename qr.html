@@ -37,15 +37,6 @@
         $(function () {
 
             function qr(text) {
-                var options = {
-                    render: 'canvas',
-                    size: 300,
-                    ecLevel: 'Q',
-                    fill: '#233',
-                    background: null,
-                    quiet: 0,
-                    mode: 2
-                };
                 $("#qrcode").empty().qrcode(options);
             }
 
